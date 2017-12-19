@@ -205,7 +205,7 @@ root.mainloop()
 #Creating a new window which will show up when the program has sent all the e-mails
 complete = Tk()
 #Setting the icon to a picture of santa
-root.iconbitmap("santa.ico")
+complete.iconbitmap("santa.ico")
 #Ensuring the window appears ontop of all other windows
 complete.attributes("-topmost", True)
 #Setting the title of the window to complete
